@@ -1,5 +1,7 @@
 import React from 'react';
 import {Container, Content, Card, CardHeader, CardContent, CardFooter, Annotation, Title, Description} from './styles'
+import { Animated } from 'react-native';
+import { PanGestureHandler } from 'react-native-gesture-handler';
 
 import Header from '~/components/header';
 import Tabs from '~/components/tabs';
